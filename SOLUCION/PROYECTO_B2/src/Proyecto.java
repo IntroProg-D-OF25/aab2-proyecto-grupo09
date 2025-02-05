@@ -60,7 +60,7 @@ public class Proyecto {
     public static double comprarBoletos(String[] cartelera, String[] horarios, String[] precios, String[] salas, Scanner tcl, String[] factura) {
         mostrarCartelera(cartelera, horarios, precios, salas);
 
-        System.out.print("Seleccione la película que desea adquirir (número): ");
+        System.out.print("Seleccione la película que desea adquirir (numero): ");
         int seleccion = tcl.nextInt();
 
         System.out.print("Ingrese la cantidad de boletos: ");
